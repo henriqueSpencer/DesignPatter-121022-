@@ -1,3 +1,7 @@
+Site de Consulta:
+    - https://refactoring.guru/pt-br/design-patterns
+    - https://www.youtube.com/watch?v=eZiceA2Veg0&list=PLAgbpJQADBGIOOJIolD0f_oJd3hNJCLK7&index=2
+
 
 Principios Solidits:
 01 - Responsabilidade unica
