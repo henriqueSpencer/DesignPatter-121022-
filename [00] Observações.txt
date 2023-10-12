@@ -1,0 +1,41 @@
+
+Principios Solidits:
+01 - Responsabilidade unica
+    - Uma classe deve ter um, e somente um, motivo para mudar.
+02 - Aberto/Fechado
+    - clases objetos e metodos devem estar abertos para extensao e fechados para modificacao
+03 - Liskov Substitution
+    - Uma classe derivada deve ser substituivel por sua classe base
+04 - Segregation Interface
+    - Os clientes nao devem ser forcados a depender de interfaces que nao utilizam
+05 - Dependency Inversion
+    - Dependa de uma abstracao e nao de uma implementacao
+
+Design Patter:
+    - Criacional (Abstrai o processo de instanciação de objetos)
+        - Abstract Factory
+        - Builder
+        - Factory Method
+        - Prototype
+        - Singleton
+    - Estrutural (Abstrai a forma como classes e objetos são compostos para formar estruturas maiores)
+        - Adapter
+        - Bridge
+        - Composite
+        - Decorator
+        - Facade
+        - Business Delegate
+        - Flyweight
+        - Proxy
+    - Comportamental (Abstrai a forma como classes e objetos interagem e distribuem responsabilidades)
+        - Chain of Responsibility
+        - Command
+        - Interpreter
+        - Iterator
+        - Mediator
+        - Memento
+        - Observer
+        - State
+        - Strategy
+        - Template Method
+        - Visitor
