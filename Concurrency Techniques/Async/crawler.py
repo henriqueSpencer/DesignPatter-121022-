@@ -66,9 +66,9 @@ class UrlParser(html.parser.HTMLParser):
 class Crawler:
     def __init__(
             self,
+            filter_url, # filtro de urls que não queremos
             client = httpx.AsyncClient, # Cliente assincrono
             urls: Iterable[str] = [str], # lista de urls iniciais
-            filter_url: Callable[[str, str], str], # filtro de urls que não queremos
             workers: int = 10, # numero de workers = determinas o numero de conexoes simultaneas
             limit: int = 25 # limit de paginas
     ):
